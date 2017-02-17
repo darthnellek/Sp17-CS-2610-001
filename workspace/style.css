@@ -1,0 +1,77 @@
+   .title {
+           
+            font-size: 150px;
+            color: white;
+        	font-weight: bold;
+        	background-color: #0f2439;
+        	border-radius: 4px;
+        	padding: 10px;
+        	text-align: center;
+        }
+        
+    p:first-of-type {
+            background: red;
+        }
+    body{
+               background-image: url("http://www.publicdomainpictures.net/pictures/130000/velka/gray-gradient-background-1440541572Qcf.jpg");
+               background-repeat: no-repeat;
+               background-size: cover;
+        }
+        
+    table {
+            font-family: Copperplate, Fantasy;
+            border-collapse: collapse;
+            width: 100%;
+        }
+   
+
+    td, th {
+            border: 1px solid #00050f;
+            text-align: left;
+            padding: 8px;
+        }
+         th:hover{
+            background-color: #eee;
+        }
+         td:hover{
+            background-color: #eee;
+        }
+        
+    tr:nth-child(even) {
+            background-color: #a3bbe0;
+        }
+        
+    .notes {
+            text-align: center;
+
+        }
+    button{
+      display: inline-block;
+      padding: 15px 25px;
+      font-size: 24px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #4286f4;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+    }
+     button:hover {
+         background-color: #3467ba;
+         transform: translateY(4px);
+     }
+    button:active {
+     background-color: #162f59;
+     box-shadow: 0 5px #666;
+     
+    }
+    a {
+     color: black;
+    }
+    a:visited {
+     color: blue;
+    }
+   
